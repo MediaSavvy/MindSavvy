@@ -1,4 +1,4 @@
-baseurl = "https://example.com"
+baseurl = "https://mindsavvy.pages.dev"
 defaultContentLanguage = "en"
 languageCode = "en"
 title = "MindSavvy"
@@ -25,7 +25,7 @@ avatar = "img/avatar.png"
 headerTitle = "MindSavvy"
 # motto = ""
 
-# footerBottomText = ""
+footerBottomText = "MindSavvy is a psychology and mental health website."
 
 # rss = true
 
@@ -38,9 +38,9 @@ headerTitle = "MindSavvy"
 
 # email = ""
 
-siteStartYear = 2016
+siteStartYear = 2024
 
-# favicon = "favicon.ico"
+favicon = "favicon.png"
 
 # Syntax highlighting
 # customSyntaxHighlighting = true

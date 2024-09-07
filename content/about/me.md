@@ -1,8 +1,10 @@
 ---
-title: MindSavvy
+title: 
 date: 2024-09-06T18:50:23+02:00
 draft: false
 ---
+
+# About
 
 ## What is this? 
 
