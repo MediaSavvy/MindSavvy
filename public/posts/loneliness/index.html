@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loneliness | MindSavvy</title>
+
+    
+<link href="/favicon.png" rel="icon" type="image/x-icon" />
+
+
+<link rel="canonical" href="http://localhost:1313/posts/loneliness/" />
+
+
+
+<meta name="author" content="MindSavvy" />
+<meta name="description" content="In this article we talk about loneliness, the causes, how to identify it, treatment and more.
+" />
+
+
+<meta name="keywords" content="Loneliness,Shy,Introversion,Depression">
+
+
+
+<meta name="generator" content="Hugo 0.133.1">
+
+
+<meta property="og:url" content="http://localhost:1313/posts/loneliness/">
+  <meta property="og:site_name" content="MindSavvy">
+  <meta property="og:title" content="Loneliness">
+  <meta property="og:description" content="In this article we talk about loneliness, the causes, how to identify it, treatment and more.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-09-06T19:25:21+02:00">
+    <meta property="article:modified_time" content="2024-09-06T19:25:21+02:00">
+    <meta property="article:tag" content="Loneliness">
+    <meta property="article:tag" content="Shy">
+    <meta property="article:tag" content="Introversion">
+    <meta property="article:tag" content="Depression">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Loneliness">
+  <meta name="twitter:description" content="In this article we talk about loneliness, the causes, how to identify it, treatment and more.">
+
+
+<link rel="stylesheet" href="/css/output.css" />
+
+
+
+
+    
+
+
+<style>
+  pre {
+    padding: 1em;
+    overflow: auto;
+  }
+</style>
+
+
+
+
+
+
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  </head>
+
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
+
+    
+<nav class="mt-4 lg:mt-8 py-4">
+
+  
+  <div class="container flex justify-between max-w-[65ch] mx-auto px-4 md:px-0">
+  
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="Flip it!">
+        <div class="h-10 rounded-full">
+          <img src="/img/avatar.png" alt="MindSavvy" />
+        </div>
+      </div>
+
+      
+      <div>
+        
+        <a href="http://localhost:1313/" class="text-lg font-semibold cursor-pointer">
+          MindSavvy
+        </a>
+        
+        
+      </div>
+      
+    </section>
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square" aria-label="Select an option">
+        <ion-icon name="menu" class="text-2xl"></ion-icon>
+      </div>
+      <ul class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow-md">
+        
+
+
+<li>
+  <div role="link" tabindex="0" class="inline-flex items-center p-2 cursor-pointer" @click="flip = !flip" title="About">
+    <ion-icon name="information-circle"></ion-icon>About</div>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="All Categories">
+    <ion-icon name="grid"></ion-icon>
+    All Categories
+  </a>
+</li>
+
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="All Tags">
+    <ion-icon name="pricetags"></ion-icon>
+    All Tags
+  </a>
+</li>
+
+
+
+
+
+
+      </ul>
+    </div>
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
+      
+      
+      
+      <div role="link" tabindex="0" class="text-sm font-semibold cursor-pointer hover:underline" @click="flip = !flip" title="About">About</div>
+      
+      
+
+      
+      
+
+      
+
+      
+      
+
+
+
+
+
+      
+      
+
+
+
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="Archives">
+  <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/categories" title="All Categories">
+  <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
+</a>
+
+
+      
+      
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="All Tags">
+  <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
+</a>
+
+
+      
+
+      
+
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <div class="front">
+          <div class="container">
+            
+<div class="mt-4 px-4">
+  
+  <div>
+  
+    
+    <article class="mx-auto prose prose-quoteless dark:prose-invert" id="dream-single-post-main" itemscope itemtype="http://schema.org/Article">
+      
+  <meta itemprop="name" content="Loneliness">
+  <meta itemprop="description" content="In this article we talk about loneliness, the causes, how to identify it, treatment and more.">
+  <meta itemprop="datePublished" content="2024-09-06T19:25:21+02:00">
+  <meta itemprop="dateModified" content="2024-09-06T19:25:21+02:00">
+  <meta itemprop="wordCount" content="791">
+  <meta itemprop="keywords" content="Loneliness,Shy,Introversion,Depression">
+
+      <header>
+        <h1 itemprop="headline">Loneliness</h1>
+        <p class="text-sm">
+          
+            Friday, Sep 6, 2024
+          
+
+          | <span>4 minutes read</span>
+
+          
+          | <span>Update at
+            
+              Friday, Sep 6, 2024
+            </span>
+          
+        </p>
+        <div class="flex justify-between">
+          <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+  
+    
+      <span itemprop="name">MindSavvy</span>
+    
+  
+  </span>
+</div>
+
+
+          <span class="flex items-center gap-2">
+  <a class="group inline-flex items-center p-2 text-sm rounded-full cursor-pointer hover:bg-primary" href="https://twitter.com/intent/tweet?text=Loneliness&url=http%3a%2f%2flocalhost%3a1313%2fposts%2floneliness%2f" title="Share on X">
+    <ion-icon class="group-hover:text-primary-content" name="logo-x"></ion-icon>
+  </a>
+  <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="https://facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fposts%2floneliness%2f" title="Share on Facebook">
+    <ion-icon class="group-hover:text-primary-content" name="logo-facebook"></ion-icon>
+  </a>
+</span>
+
+        </div>
+      </header>
+
+      
+
+      <p>In this article we talk about loneliness, the causes, how to identify it, treatment and more.</p>
+<h3 id="1-what-is-loneliness">1. What is loneliness?</h3>
+<p>Many of us feel lonely from time to time. These feelings are personal, so each person&rsquo;s experience with loneliness is different.</p>
+<p>Some people describe loneliness as the feeling we get when our need for social contact and relationships isn’t met. But loneliness isn’t the same as being alone.</p>
+<p>You might feel fine with little social interaction, while others might see this as loneliness.</p>
+<p>Some people may only feel lonely at certain times, but others might experience chronic loneliness. This is a deep sense of loneliness that lasts a long time, even when you’re with other people.</p>
+<p>It’s a common belief that you have to live alone to feel lonely, or that being lonely means having few friends or family around.
+However, you can have lots of social contact and support and still feel lonely, especially if you don’t feel understood or cared for by those around you.</p>
+<h3 id="2-is-loneliness-a-mental-health-problem">2. Is loneliness a mental health problem?</h3>
+<p>Loneliness by itself is not a mental health problem, however having a mental health problem can cause increased feelings of loneliness. For example, if you&rsquo;re struggling with your mental health you may:</p>
+<ul>
+<li>Avoiding social events or parties that you would usually enjoy.</li>
+<li>Having a low self-image or self-esteem.</li>
+<li>Feeling like you are a burden to other people.</li>
+<li>Find it hard to interact with people, or try new things.</li>
+</ul>
+<p>Feeling lonely can have a negative impact on your mental health, especially if you&rsquo;ve felt lonely for a long time.</p>
+<p>Some research suggests that loneliness can increase stress. It&rsquo;s also associated with an increased risk of certain mental health problems. For example, depression, anxiety, low self-esteem and sleep problems.</p>
+<h3 id="3-what-are-the-causes-of-loneliness">3. What are the causes of loneliness?</h3>
+<p>Loneliness has many causes, these are different from person to person.</p>
+<p>Various life events can make you feel lonely, for example:</p>
+<ul>
+<li>A break up.</li>
+<li>Grief.</li>
+<li>Experiencing mental health problems or disorders such as depression, anxiety or some personality disorders.</li>
+<li>Becoming a parent.</li>
+<li>Moving to a different town.</li>
+<li>Moving to a different school or starting university.</li>
+</ul>
+<p>You may also feel loneliness at certain times of the year, for example Christmas, your birthday, Valentines day etc. Studies have found that some people are more prone to loneliness more than others, for example if you:</p>
+<ul>
+<li>Have no friends or family.</li>
+<li>Beloning to a minority group.</li>
+<li>Experience frequent discrimination or stigma.</li>
+<li>Can&rsquo;t maintain a proper social life.</li>
+</ul>
+<h3 id="4-how-to-treat-loneliness">4. How to treat loneliness?</h3>
+<p>Like we have said erlier in this article, loneliness has many causes, so there is no definite treatment. Here are a few things you can do:</p>
+<p><strong>Build and Strengthen Social Connections:</strong></p>
+<ul>
+<li>Reach Out to Friends and Family: Make an effort to connect with those you already know. Even a simple phone call or message can help.</li>
+<li>Join Clubs or Groups: Participate in activities or clubs that interest you to meet new people with similar interests.</li>
+<li>Volunteer: Helping others can provide a sense of purpose and connect you with people in your community.</li>
+</ul>
+<p><strong>Develop New Skills and Interests:</strong></p>
+<ul>
+<li>Pursue Hobbies: Engaging in activities you enjoy can improve your mood and help you meet people who share your interests.</li>
+<li>Learn Something New: Taking a class or workshop can be a way to meet others and distract yourself from feelings of loneliness.</li>
+</ul>
+<p><strong>Seek Professional Support:</strong></p>
+<ul>
+<li>Counseling or Therapy: Talking to a mental health professional can provide you with tools to manage loneliness and understand your feelings better.</li>
+<li>Support Groups: Joining a support group can help you connect with others who are experiencing similar feelings.</li>
+</ul>
+<p><strong>Improve Your Self-Care Routine:</strong></p>
+<ul>
+<li>Exercise Regularly: Physical activity can boost your mood and overall well-being.</li>
+<li>Eat Healthily: A balanced diet can affect your emotional health.</li>
+<li>Practice Mindfulness or Meditation: These practices can help reduce stress and improve your emotional state.</li>
+</ul>
+<p><strong>Enhance Your Social Skills:</strong></p>
+<ul>
+<li>Work on Communication: Improving how you interact with others can help build stronger relationships.</li>
+<li>Set Realistic Social Goals: Start with small, achievable social goals and gradually work towards larger ones.</li>
+</ul>
+<p><strong>Use Technology Wisely:</strong></p>
+<ul>
+<li>Online Communities: Engage in online forums or social media groups related to your interests, but be mindful of how much time you spend online.</li>
+<li>Video Calls: Use video calls to maintain face-to-face connections with friends and family.</li>
+</ul>
+<p><strong>Address Any Underlying Issues:</strong></p>
+<ul>
+<li>Evaluate Your Environment: Sometimes loneliness can be exacerbated by an unsupportive environment. Consider whether changes in your living situation might help.</li>
+<li>Work on Relationship Issues: If there are specific relationships causing you distress, working on resolving these issues can help alleviate loneliness.</li>
+</ul>
+<p><strong>Be Patient with Yourself:</strong></p>
+<ul>
+<li>Give Yourself Time: Overcoming loneliness is a process that takes time. Be patient with yourself as you work through your feelings and build new connections.</li>
+</ul>
+<p>{{ template &ldquo;_internal/disqus.html&rdquo; . }}</p>
+
+      
+    </article>
+  </div>
+
+  
+  <div class="divider max-w-[65ch] mx-auto"></div>
+  
+
+  <section class="max-w-[65ch] mx-auto space-y-4">
+    
+    <article>
+      <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+        this.page.identifier = '\/posts\/loneliness\/';
+        this.page.title = 'Loneliness';
+        this.page.url = 'http:\/\/localhost:1313\/posts\/loneliness\/';
+    };
+    function initDisqus() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "mindsavvy" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    };
+    setTimeout(() => {
+        initDisqus();
+    }, 3000);
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </article>
+    
+
+    
+
+    
+  </section>
+</div>
+
+
+            
+            <footer class="flex justify-between items-center gap-2 max-w-[65ch] mx-auto px-4 md:px-0 py-12">
+            
+              <div>
+  
+  <p>
+    © 2024 MindSavvy
+  </p>
+  
+
+  
+  <p>MindSavvy is a psychology and mental health website.</p>
+  
+</div>
+
+              <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center h-[32px] px-2 gap-2 border border-base-content/30 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      :aria-label="'Select ' + icon.name + ' mode'"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
+
+            </footer>
+          </div>
+        </div>
+        <div class="back">
+          <div class="container">
+            
+            <div class="max-w-[65ch] mt-8 mx-auto px-4">
+  
+  
+  
+  <div>
+    <div class="mb-4 text-lg font-medium"></div>
+
+    <div class="prose dark:prose-invert">
+      <h1 id="about">About</h1>
+<h2 id="what-is-this">What is this?</h2>
+<p>A psychology and mental health website, with plenty of articles, guides, activities, where to get help and more.</p>
+<h2 id="how-to-contact-us">How to contact us?</h2>
+<p>Email:
+Discord:</p>
+<p><strong>More coming soon.</strong></p>
+
+    </div>
+  </div>
+  <div class="divider divider-vertical"></div>
+  
+  
+
+  
+
+  
+</div>
+
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+</script>
+
+<script src="/js/main.js"></script>
+
+    
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
