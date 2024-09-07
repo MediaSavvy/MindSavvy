@@ -5,7 +5,19 @@
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2024-09-06T19:25:21+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/category1/</loc>
+    <loc>http://localhost:1313/tags/depression/</loc>
+    <lastmod>2024-09-06T19:25:21+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/introversion/</loc>
+    <lastmod>2024-09-06T19:25:21+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/loneliness/</loc>
+    <lastmod>2024-09-06T19:25:21+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/loneliness/</loc>
+    <lastmod>2024-09-06T19:25:21+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/test/</loc>
     <lastmod>2024-09-06T19:25:21+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
@@ -14,16 +26,10 @@
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-09-06T19:25:21+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/tag1/</loc>
-    <lastmod>2024-09-06T19:25:21+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/tag2/</loc>
+    <loc>http://localhost:1313/tags/shy/</loc>
     <lastmod>2024-09-06T19:25:21+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-09-06T19:25:21+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/test/</loc>
     <lastmod>2024-09-06T19:25:21+02:00</lastmod>
   </url>
 </urlset>

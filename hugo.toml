@@ -4,11 +4,9 @@ languageCode = "en"
 title = "MindSavvy"
 theme = "hugo-theme-dream"
 
-# [services]
-# [services.disqus]
-# shortname = ""
-# [services.googleAnalytics]
-# ID = ""
+[services]
+[services.disqus]
+shortname = "mindsavvy"
 
 [params]
 zenMode = true
