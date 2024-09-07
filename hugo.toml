@@ -5,8 +5,8 @@ title = "MindSavvy"
 theme = "hugo-theme-dream"
 
 [services]
-[services.disqus]
-shortname = "mindsavvy"
+  [services.disqus]
+    shortname = 'mindsavvy'
 
 [params]
 zenMode = true
