@@ -1,7 +1,16 @@
 [data-theme="emerald"] #disqus_thread {
-  color-scheme: none;
-  background-color: #ffffff;
-  color: #000000;
+  /* Light mode styles */
+.disqus-comment {
+    background-color: #ffffff; /* White background for light mode */
+    color: #000000; /* Black text for light mode */
+}
+
+.disqus-comment .comment-author {
+    color: #000000; /* Black color for author names in light mode */
+}
+
+.disqus-comment .comment-content {
+    color: #333333; /* Darker text color for content in light mode */
 }
  
 [data-theme="forest"] #disqus_thread {
